@@ -4,3 +4,7 @@ Projects for the Harvardx course CS50’s Introduction to Artificial Intelligenc
 ## Week 0: Search
 ### Degrees
 Implementation of the 'Six Degrees of Kevin Bacon' using breadth-first-search.
+
+### Tic-Tac-Toe
+Implementation of the Minimax Algorithm for AI in Tic-Tac-Toe.
+

@@ -92,10 +92,9 @@ def shortest_path(source, target):
     If no possible path, returns None.
     """
 
-    print(source, target)
     # Initialize frontier with initial state
     start = Node(state=source, parent=None, action=None)
-    frontier = QueueFrontier() #BFS
+    frontier = QueueFrontier() # BFS
     frontier.add(start)
 
     # Initialize an empty explored set
@@ -127,6 +126,7 @@ def shortest_path(source, target):
                 child = Node(state=person_id, parent=node, action=movie_id)
                 frontier.add(child)
 
+
 def get_solution(node):
     path = []
     while node.parent is not None:
@@ -134,6 +134,7 @@ def get_solution(node):
         node = node.parent
     path.reverse()
     return path
+
 
 def person_id_for_name(name):
     """
