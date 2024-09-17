@@ -8,3 +8,9 @@ Implementation of the 'Six Degrees of Kevin Bacon' using breadth-first-search.
 ### Tic-Tac-Toe
 Implementation of the Minimax Algorithm with alpha-beta pruning for AI in Tic-Tac-Toe.
 
+## Week 1: Knowledge
+### Knights
+Implementation of Raymond Smullyan's "Knights and Knaves" logical puzzles.
+
+### Minesweeper
+Implementation of AI to play minesweeper.
