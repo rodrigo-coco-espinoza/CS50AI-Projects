@@ -14,3 +14,8 @@ Implementation of Raymond Smullyan's "Knights and Knaves" logical puzzles.
 
 ### Minesweeper
 Implementation of AI to play minesweeper.
+
+## Week 2: Uncertainty
+
+### PageRank
+Implementation of Markov Chain for Random Surfer Model and Iterative Algorithm for calculating Google PageRank.
