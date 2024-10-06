@@ -19,3 +19,8 @@ Implementation of AI to play minesweeper.
 
 ### PageRank
 Implementation of Markov Chain for Random Surfer Model and Iterative Algorithm for calculating Google PageRank.
+
+## Week 3: Optimization
+
+### Crosswords
+Implementation of a crossword puzzle solver using constraint satisfaction problems and ac3 algorithm.
