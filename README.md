@@ -24,3 +24,8 @@ Implementation of Markov Chain for Random Surfer Model and Iterative Algorithm f
 
 ### Crosswords
 Implementation of a crossword puzzle solver using constraint satisfaction problems and ac3 algorithm.
+
+## Week 4: Learning
+
+### Shopping
+Implementation of a nearest-neighbor classifier to predict whether a customer will complete a purchase based on their shopping behavior.
