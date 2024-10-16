@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 EPOCHS = 10
 IMG_WIDTH = 30
 IMG_HEIGHT = 30
-NUM_CATEGORIES = 3
+NUM_CATEGORIES = 43
 TEST_SIZE = 0.4
 
 
@@ -85,7 +85,15 @@ def get_model():
     model = tf.keras.models.Sequential([
 
         # Convolution
-        tf.keras.layers.Conv2D(32, (3, 3), activation='relu', input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
+        tf.keras.layers.Conv2D(32, (3, 3), activation='relu',
+                               input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
+
+        # Pooling
+        tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
+
+        # Convolution
+        tf.keras.layers.Conv2D(32, (3, 3), activation='relu',
+                               input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
 
         # Pooling
         tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
@@ -98,17 +106,16 @@ def get_model():
         tf.keras.layers.Dropout(0.5),
 
         # Output layer
-        tf.keras.layers.Dense(NUM_CATEGORIES, activation='softmax') 
+        tf.keras.layers.Dense(NUM_CATEGORIES, activation='softmax')
     ])
 
     model.compile(
-        optimizer='adam', 
-        loss='categorical_crossentropy', 
+        optimizer='adam',
+        loss='categorical_crossentropy',
         metrics=['accuracy']
     )
 
     return model
-
 
 
 if __name__ == "__main__":
