@@ -29,3 +29,16 @@ Implementation of a crossword puzzle solver using constraint satisfaction proble
 
 ### Shopping
 Implementation of a nearest-neighbor classifier to predict whether a customer will complete a purchase based on their shopping behavior.
+
+### Nim
+Implementation of an AI to play Nim through reinforcement learning.
+
+## Week 5: Neural Networks
+
+### Traffic
+Implementation of a neural network to classify traffic signs images.
+
+## Week 6: Language
+
+### Parser
+Implementation of a probabilistic context-free grammar parser to interpret and analyze sentences.
